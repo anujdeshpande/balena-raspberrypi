@@ -16,6 +16,13 @@ BALENA_STORAGE_raspberrypi4-64 = "overlay2"
 # RaspberryPi specific variables
 GPU_MEM = "16"
 
+MACHINE_FEATURES_remove_revpi-core-3 = "vc4graphics"
+MACHINE_FEATURES_remove_npe-x500-m3 = "vc4graphics"
+MACHINE_FEATURES_remove_fincm3 = "vc4graphics"
+MACHINE_FEATURES_remove_raspberrypi = "vc4graphics"
+MACHINE_FEATURES_remove_raspberrypi2 = "vc4graphics"
+MACHINE_FEATURES_remove_raspberrypi3 = "vc4graphics"
+
 # RPI BSP uses uncompressed kernel images by default
 KERNEL_IMAGETYPE="zImage"
 KERNEL_BOOTCMD="bootz"
