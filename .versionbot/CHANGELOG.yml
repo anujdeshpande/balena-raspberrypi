@@ -1,4 +1,21 @@
 - commits:
+    - subject: Do not enable the vc4-kms-v3d overlay for non-rpi4 devices
+      hash: d3f628a7410f5c08e495d4f33dea3925c52188bc
+      body: |
+        We leave this overlay enabled only for the 64 bits machines we support
+        (RaspberryPi 3 64 bits and RaspberryPi 4 64 bits) so that we are
+        in sync with already deployed devices. We will enable it here again
+        eventually when this setting is managed by the supervisor in the
+        saved target state.
+      footer:
+        Changelog-entry: Do not enable the vc4-kms-v3d overlay for non-rpi4 devices
+        changelog-entry: Do not enable the vc4-kms-v3d overlay for non-rpi4 devices
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.41.1+rev5
+  date: 2019-09-12T14:40:48.085Z
+- commits:
     - subject: Update the BSP layer to latest warrior so we have kernel 4.19.71
       hash: c101fb8eaadc6d52aded2ef654d947f985a26cf5
       body: |

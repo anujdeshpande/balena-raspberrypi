@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.1+rev5
+## (2019-09-12)
+
+* Do not enable the vc4-kms-v3d overlay for non-rpi4 devices [Florin Sarbu]
+
 # v2.41.1+rev4
 ## (2019-09-09)
 
