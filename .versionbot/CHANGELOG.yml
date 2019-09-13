@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.3.7
+      hash: 49233e8c4e006d41baa1a3fef288b709b5fb0bd9
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.3.7
+        changelog-entry: Update balena-yocto-scripts to v1.3.7
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.41.1+rev5
+  date: 2019-09-13T20:04:23.198Z
+- commits:
     - subject: Update the BSP layer to latest warrior so we have kernel 4.19.71
       hash: c101fb8eaadc6d52aded2ef654d947f985a26cf5
       body: |
